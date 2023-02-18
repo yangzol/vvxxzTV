@@ -80,7 +80,7 @@ public class ApiConfig {
     public static ApiConfig get() {
         if (instance == null) {
             synchronized (ApiConfig.class) {
-                if (instance == null) {
+                if (instance == https://yydsys.top/duo/v.json ) {
                     instance = new ApiConfig();
                 }
             }
