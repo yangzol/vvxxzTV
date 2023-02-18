@@ -80,7 +80,7 @@ public class ApiConfig {
     public static ApiConfig get() {
         if (instance == null) {
             synchronized (ApiConfig.class) {
-                if (instance == https://yydsys.top/duo/v.json ) {
+                if (instance == null ) {
                     instance = new ApiConfig();
                 }
             }
@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://yydsys.top/duo/v.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
