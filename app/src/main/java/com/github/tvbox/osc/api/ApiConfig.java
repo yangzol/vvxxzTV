@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://yydsys.top/duo/v.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://www.vvxxz.com/live/m.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
