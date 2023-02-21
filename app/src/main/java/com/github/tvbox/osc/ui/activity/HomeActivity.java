@@ -277,7 +277,7 @@ public class HomeActivity extends BaseActivity {
                             @Override
                             public void run() {
                                 if (!useCacheConfig)
-                                    Toast.makeText(HomeActivity.this, "自定义jar加载成功", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(HomeActivity.this, "欢迎来到小巷子影视app更多资源请访问：www.vvxxz.com", Toast.LENGTH_SHORT).show();
                                 initData();
                             }
                         }, 50);
@@ -612,7 +612,7 @@ public class HomeActivity extends BaseActivity {
             ConstraintLayout cl_root = dialog.findViewById(R.id.cl_root);
             ViewGroup.LayoutParams clp = cl_root.getLayoutParams();
             clp.width = AutoSizeUtils.mm2px(dialog.getContext(), 380+200*spanCount);
-            dialog.setTip("请选择首页数据源");
+            dialog.setTip("小巷子资源网：www.vvxxz.com");
             dialog.setAdapter(new SelectDialogAdapter.SelectDialogInterface<SourceBean>() {
                 @Override
                 public void click(SourceBean value, int pos) {
